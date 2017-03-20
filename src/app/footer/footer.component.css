@@ -6,3 +6,10 @@
 footer {
 	display: block;
 }
+
+#the_footer {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid green;
+}

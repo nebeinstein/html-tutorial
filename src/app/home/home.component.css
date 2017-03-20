@@ -14,3 +14,28 @@ h2 {
 section, article, aside {
 	display: block;
 }
+
+#main_section{
+	float: left;
+	width: 660px;
+	margin: 30px; /* 720px, 280px left */
+}
+
+#side_news{
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: #66CCCC;
+}
+
+article {
+	background: #F5D4B9;
+	border: 1px solid red;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+article footer {
+	text-align: right;
+}
