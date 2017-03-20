@@ -1,0 +1,16 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font: bold 20px Tahoma;
+}
+
+h2 {
+	font: bold 14px Tahoma;
+}
+
+section, article, aside {
+	display: block;
+}
