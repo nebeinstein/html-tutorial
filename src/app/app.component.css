@@ -3,13 +3,24 @@
 	padding: 0px;
 }
 
-#big_wrapper{
+/* This is using the flexible box model.
+	"The future of web design" - Bucky Roberts 2011 */
+#big_wrapper {
+	max-width: 1000px;
+	margin: 20px 0px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1; /* 1 means flexible, 0 means not */
+}
+
+/* This was using the box model. */
+/*#big_wrapper {
 	text-align: center;
 }
 
-#medium_wrapper{
+#medium_wrapper {
 	border: 1px solid black;
 	width: 1000px;
 	margin: 20px auto;
 	text-align: left;
-}
+}*/

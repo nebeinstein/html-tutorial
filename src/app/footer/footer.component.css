@@ -7,9 +7,18 @@ footer {
 	display: block;
 }
 
+/* This is using the flexible box model.
+	"The future of web design" - Bucky Roberts 2011 */
 #the_footer {
-	clear: both;
 	text-align: center;
 	padding: 20px;
 	border-top: 2px solid green;
 }
+
+/* This was using the box model. */
+/*#the_footer {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid green;
+}*/

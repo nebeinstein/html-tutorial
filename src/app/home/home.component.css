@@ -15,10 +15,45 @@ section, article, aside {
 	display: block;
 }
 
-#main_section{
+/* This is using the flexible box model.
+	"The future of web design" - Bucky Roberts 2011 */
+#new_div {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+
+#main_section {
+	border: 1px solid blue;
+	-webkit-box-flex: 1;
+	margin: 20px;
+	padding: 20px;
+}
+
+#side_news {
+	border: 1px solid red;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: #66CCCC;
+}
+
+article {
+	background: #F5D4B9;
+	border: 1px solid red;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+article footer {
+	text-align: right;
+}
+
+
+/* This was using the box model. */
+/*#main_section{
 	float: left;
 	width: 660px;
-	margin: 30px; /* 720px, 280px left */
+	margin: 30px;
 }
 
 #side_news{
@@ -38,4 +73,4 @@ article {
 
 article footer {
 	text-align: right;
-}
+}*/

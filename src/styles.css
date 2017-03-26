@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+	width: 100%;
+	/*display: box;*/
+	display: -webkit-box;
+	-webkit-box-pack: center; /* when the website is bigger than the contents inside of it, just center those contents */
+}
