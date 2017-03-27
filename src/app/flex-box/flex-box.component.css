@@ -3,27 +3,37 @@
 	border: 2px solid blue;
 	display: -webkit-box;
 	-webkit-box-orient: horizontal;
-	-webkit-box-direction: reverse;
+	width: 700px;
+	/*-webkit-box-direction: reverse;*/
+	/*-webkit-box-pack: center;*/
+	/*-webkit-box-pack: start;*/
+	/*-webkit-box-pack: end;*/
 }
 
 #parent div {
 	border: 2px solid black;
 	padding: 20px;
 	margin: 10px;
+	width: 100px;
 }
 
 #kid1 {
 	background: green;
+	/*-webkit-box-ordinal-group: 3;*/
 }
 
 #kid2 {
 	background: yellow;
+	-webkit-box-flex: 1;
+	/*-webkit-box-ordinal-group: 1;*/
 }
 
 #kid3 {
 	background: red;
+	/*-webkit-box-ordinal-group: 4;*/
 }
 
 #kid4 {
 	background: orange;
+	/*-webkit-box-ordinal-group: 2;*/
 }
